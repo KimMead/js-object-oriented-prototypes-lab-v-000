@@ -6,8 +6,8 @@
   BoardMember.prototype.veto = function(){
     console.log('No, I must disagree')
   }
-  this.approve = function(){
-    return 'You can do that!'
+  BoardMember.prototype.approve = function(){
+    console.log('You can do that!')
   }
   this.doCharity = function(){
     return "I like to help people."
