@@ -13,8 +13,8 @@
     return 'I like to help people.'
   }
 
-  this.releasePressStatement = function(){
-    return "You will see great things from Scuber."
+  BoardMember.prototype.releasePressStatement = function(){
+    return 'You will see great things from Scuber.'
   }
 
   this.sayHi = function(){
